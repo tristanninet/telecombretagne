@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.telecombretagne"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.telecombretagne.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.FigPage"
+            android:label="@string/title_activity_fig_page"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.telecombretagne.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.FipPage"
+            android:label="@string/title_activity_fip_page"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.telecombretagne.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.DebouchesPage"
+            android:label="@string/title_activity_debouches_page"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.telecombretagne.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.PrepaProc"
+            android:label="@string/title_activity_prepa_proc"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.telecombretagne.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.AstProc"
+            android:label="@string/title_activity_ast_proc"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.telecombretagne.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.Fip_Proc"
+            android:label="@string/title_activity_fip__proc" >
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.FipProc"
+            android:label="@string/title_activity_fip_proc"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.telecombretagne.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.Contacts"
+            android:label="@string/title_activity_contacts"
+            android:parentActivityName="com.example.telecombretagne" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.telecombretagne" />
+        </activity>
+    </application>
+
+</manifest>

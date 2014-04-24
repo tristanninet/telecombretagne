@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.telecombretagne"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+<!--     <uses-sdk -->
+<!--         android:minSdkVersion="8" -->
+<!--         android:targetSdkVersion="19" /> -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.telecombretagne.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.FormationsFIG"
+            android:label="@string/title_activity_formations_fig"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.FormationsFIP"
+            android:label="@string/title_activity_formations_fip"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.FormationsDebouches"
+            android:label="@string/title_activity_formations_debouches"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.ProcedurePrepa"
+            android:label="@string/title_activity_procedure_prepa"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.ProcedureFIP"
+            android:label="@string/title_activity_procedure_fip"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.ProcedureAST"
+            android:label="@string/title_activity_procedure_ast"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.Contacts"
+            android:label="@string/title_activity_contacts"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.telecombretagne.GererNotifications"
+            android:label="@string/title_activity_gerer_notifications"
+            android:parentActivityName="com.example.telecombretagne.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--     nom de l'application -->
+
+    <string name="app_name">TelecomBretagne</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+<!--     titres des champs du menu -->
+
+    <string name="accueil">Accueil</string>
+    <string name="formations">Formations</string>
+    <string name="formations_fig">FIG</string>
+    <string name="formations_fip">FIP</string>
+    <string name="forations_debouches">Débouchés</string>
+    <string name="procedure">Procédure</string>
+    <string name="procedure_prepa">Prépa</string>
+    <string name="procedure_fip">FIP</string>
+    <string name="procedure_ast">AST</string>
+    <string name="contacts">Contacts</string>
+    <string name="gerer_notifications">Gérer les notifications</string>
+    
+<!--     titres des activités -->
+    
+    <string name="title_activity_formations_fig">FormationsFIG</string>
+    <string name="title_activity_formations_fip">FormationsFIP</string>
+    <string name="title_activity_formations_debouches">FormationsDebouches</string>
+    <string name="title_activity_procedure_prepa">ProcedurePrepa</string>
+    <string name="title_activity_procedure_fip">ProcedureFIP</string>
+    <string name="title_activity_procedure_ast">ProcedureAST</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="title_activity_gerer_notifications">GererNotifications</string>
+
+</resources>

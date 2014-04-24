@@ -1,0 +1,89 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.telecombretagne.MainActivity" >
+
+    <item
+        android:id="@+id/accueil"
+        android:orderInCategory="100"
+        android:title="@string/accueil"
+        app:showAsAction="never"
+        android:onClick="accueil"/>
+    
+	<item
+        android:id="@+id/formations"
+        android:orderInCategory="100"
+        android:title="@string/formations"
+        app:showAsAction="never">
+	
+        <menu android:id="@+id/sous_menu_formations">
+            <item
+                android:id="@+id/formations_fig"
+                android:orderInCategory="100"
+                android:title="@string/formations_fig"
+                app:showAsAction="never"
+                android:onClick="formationsFig"/>
+
+            <item
+                android:id="@+id/formations_fip"
+                android:orderInCategory="100"
+                android:title="@string/formations_fip"
+                app:showAsAction="never"
+                android:onClick="formationsFip"/>
+            
+            <item
+                android:id="@+id/formations_debouches"
+                android:orderInCategory="100"
+                android:title="@string/formations_debouches"
+                app:showAsAction="never"
+                android:onClick="formationsDebouches"/>
+                
+        </menu>
+    </item>
+
+	<item
+        android:id="@+id/procedure"
+        android:orderInCategory="100"
+        android:title="@string/procedure"
+        app:showAsAction="never">
+	
+        <menu android:id="@+id/sous_menu_procedure">
+            <item
+                android:id="@+id/procedure_prepa"
+                android:orderInCategory="100"
+                android:title="@string/procedure_prepa"
+                app:showAsAction="never"
+                android:onClick="procedurePrepa"/>
+
+            <item
+                android:id="@+id/procedure_ast"
+                android:orderInCategory="100"
+                android:title="@string/procedure_ast"
+                app:showAsAction="never"
+                android:onClick="procedureAST"/>
+            
+            <item
+                android:id="@+id/procedure_fip"
+                android:orderInCategory="100"
+                android:title="@string/procedure_fip"
+                app:showAsAction="never"
+                android:onClick="procedureFIP"/>
+                
+        </menu>
+    </item>
+    
+    <item
+        android:id="@+id/gerer_notifications"
+        android:orderInCategory="100"
+        android:title="@string/gerer_notifications"
+        app:showAsAction="never"
+        android:onClick="gererNotifications"/>
+    
+    <item
+        android:id="@+id/contacts"
+        android:orderInCategory="100"
+        android:title="@string/contacts"
+        app:showAsAction="never"
+        android:onClick="contacts"/>
+
+</menu>
