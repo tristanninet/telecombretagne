@@ -17,11 +17,22 @@ public class Contacts extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_contacts);
+		System.out.println ("execution de la methode onCreate de Contacts");
 
 		if (savedInstanceState == null) {
+			System.out.println ("execution onCreate contacts : savedInstanceState == null");
 			getSupportFragmentManager().beginTransaction()
 					.add(R.id.container, new PlaceholderFragment()).commit();
 		}
+		
+	    // Make sure we're running on Honeycomb or higher to use ActionBar APIs
+	    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+	        // For the main activity, make sure the app icon in the action bar
+	        // does not behave as a button
+	        android.app.ActionBar actionBar = getActionBar();
+	        actionBar.setHomeButtonEnabled(false);
+	    }
+
 	}
 
 	@Override
